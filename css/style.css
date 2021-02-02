@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.block__header {
+    background-image: url(img/header.svg);
+    background-color: black;
+}
