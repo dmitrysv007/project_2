@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-size: 16px;
     padding: 0%;
     box-sizing: border-box;
@@ -11,26 +12,117 @@ body {
     width: 100%;
     height: 900px;
     background-image: url(../img/header.svg);
-    padding-top: 40px;
+    margin: 0;
+  
+    
     
 }
+
 
 .top_menu{
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 40px;
+    margin-top: 0;    
     margin-right: 21.09%;
     list-style-type: none;
+    margin-bottom: 0;
+
  
 
 }
 
 a {
+    display: block;
     text-decoration: none;
     font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-color: #FFFFFF;
-margin-right: 40px;
+    font-size: 16px;
+    padding: 0;
+    color: #FFFFFF;
+    margin-right: 40px;
+    margin-top: 40px;
+    line-height: 1;
+    
 }
+
+.line{
+    
+    
+    height: 0;
+    opacity: 0.5;
+    border: 1px solid #A1A1A1;
+   margin-top: 40px;
+    left: 0;
+    
+}
+a.top_menu_a:after { 
+    position: relative;
+    display: block; 
+    content: "";
+    height: 4px;
+    width: 0; 
+    background-color: #FFFFFF; 
+    border:  #FFFFFF;
+    top: 39px;
+    
+    }
+    a.top_menu_a:hover:after,
+    a.top_menu_a:focus:after {
+    width: 100%;
+    }
+   
+    .header_text{
+        margin: auto;
+        margin-top: 220px;
+        width: 43.18%;
+    }
+
+p {
+    text-align: center;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.header_text_p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.btn{
+    margin: auto;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background: #4985FF;
+    text-align: center;
+    box-shadow: 0px 0px 10px;
+    margin-top: 50px;
+   
+
+}
+.btn_a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+   
+}
+.btn_p{
+    margin: auto;
+}
+    
+
 
