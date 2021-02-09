@@ -12,6 +12,8 @@ body {
     width: 100%;
     height: 900px;
     background-image: url(../img/header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
   
     
@@ -216,10 +218,10 @@ h3{
 
 .wrapper{
     width: 100%;
-    height: 797px;
+    height: 14.12%;
     margin-top: 105px;
-    background-color: #F6F6F8;
-   
+    background-color: #F6F6F8;   
+    padding-bottom: 70px; 
 }
 
 .wrapper_content{
@@ -228,20 +230,20 @@ h3{
     justify-content: center;
     align-self: center;
     margin: auto;
+    padding-top: 100px;
      width: 57.81%;   
 }
 
 .wrapper_text{
   width: 50% ;
+  margin-right: 6.3%;
 }
 
 .wrapper_text_p{
     text-align: left;
 }
 
-.wrapper_img{
-    width: 50%;
-}
+
 
 .wrapper_a{
     text-decoration-line: underline;
@@ -252,8 +254,9 @@ h3{
 .wrapper_line{
     height: 0px;
     width: 57.81%;
-    margin-top: 85px;
+    margin-top: 90px;
     border: 1px solid #E0E0E0;
+    
 }
 
 
@@ -288,7 +291,10 @@ h3{
     align-items: center;
     justify-content: center;
     align-self: center;
+    position: relative;
     margin-top: 70px;
+    margin-left: 26.04%;
+    margin-right: 26.04%;
 }
 
 
@@ -330,20 +336,22 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 6.5%;
     padding-left: 21.09%;
     padding-right: 21.09%;
     
 }
 
 .content_img{
-    margin-left: 20px;
+    margin-left: 1.04%;
     
 }
 
 
+
 .text_content_img{
     margin-top: 30px;
+    width: 80%;
 }
 
 .block_img_h3 {
@@ -355,8 +363,8 @@ h3{
 }
 
 .block_line{
-    margin-top:397px;
-    margin-bottom: 85px;
+    margin-top:40%;
+    
 
 }
 
@@ -388,4 +396,43 @@ h3{
 
 .btn_project{
     margin-top: 63px;
+}
+
+.content_video{
+    background-image: url(../img/content_video.svg);
+    width: 100%;
+    height: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12.28%;
+
+}
+
+.h2__video {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+.p__video{
+    margin-top: 5.26%;
+    margin-bottom: 0;
+}
+
+.video{
+    position: absolute;
+    width: 50.50%;
+    height: 75.44%;
+    top: 38.6%;
+   
+}
+
+.img_video{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.wrapper_video {
+    position: relative;
 }
